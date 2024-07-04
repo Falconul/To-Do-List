@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ToDoList
 
 To do list by Tayfun / Rebekka / Joao
@@ -23,3 +24,9 @@ Goals until next meet (Tuesday 17.10):
 - catch up on each other's functionality skills
 - edit button/functionality
 - nuance functionality with storage knowledge (will only learn on Monday in class)
+=======
+# To-Do-List
+3.Project
+
+I worked with 2 of my course friends on this project.We tried to create a nice To Do List project. In this project, I tried to further my animation knowledge.
+>>>>>>> 22f82330c3e06d1604ca2bb54b7bf4bf0b21bb3e
