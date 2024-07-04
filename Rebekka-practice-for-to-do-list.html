@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Rebekka-practice-css-to-do-list.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <title>to-do list practice</title>
+  </head>
+  <body>
+    <h1>Master plan of avoided tasks of adulting</h1>
+    <div class="containerWhole">
+      <input id="inputField" type="text" placeholder="Add a task here..." />
+      <div id="initial-buttons">
+        <button id="priority">
+          Priority
+          <select id="prioritySelection">
+            <option value="low">🤏 Low</option>
+            <option value="medium">🤌 Medium</option>
+            <option value="high">👏 HIGH</option>
+          </select>
+        </button>
+        <button id="addToDo">Add</button>
+        <button id="deadline">
+          Deadline
+          <select id="listSelection">
+            <option value="today">Today</option>
+            <option value="tomorrow">Tomorrow</option>
+            <option value="later">You have time</option>
+          </select>
+        </button>
+      </div>
+
+      <div class="grid-container-lists-and-headings">
+        <div class="grid-item" id="red-heading"><h2>Today</h2></div>
+        <div class="grid-item" id="yellow-heading"><h2>Tomorrow</h2></div>
+        <div class="grid-item" id="green-heading"><h2>You have time</h2></div>
+        <div class="grid-item" id="red-section">
+          <ul id="todoListToday"></ul>
+        </div>
+        <div class="grid-item" id="yellow-section">
+          <ul id="todoListTomorrow"></ul>
+        </div>
+        <div class="grid-item" id="green-section">
+          <ul id="todoListLater"></ul>
+        </div>
+      </div>
+
+      <div class="container-completedTasks">
+        <div class="completed-grid-item" id="grey-heading">
+          <h2>Completed Tasks</h2>
+        </div>
+        <div class="completed-grid-item" id="grey-section">
+          <ul id="completedList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./Rebekka-practice-making-a-to-do-list.js"></script>
+  </body>
+</html>

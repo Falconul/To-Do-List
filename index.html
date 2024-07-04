@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Plan of Avoided Tasks of Adulting</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+<body>
+    <div id="welcome-content"class="welcome-contentt">
+        <!--Loading screen-->
+      <h1>Welcome Our To Do List!</h1>
+      <p>Before you start making our own to do list, we have a little question.Guess who made this web site?</p>
+      <button id="continue-button" class="continue-buttonn">ChatGpt & Google made it</button>
+      <button id="run-button"class="run-buttonn">You Guys Did It</button>
+     </div>
+    <div id="site-content" style="display: none;" class="site-save">
+    <!-- Inside of web site -->
+    <header><h1>Master Plan of Avoided Tasks of Adulting </h1></header>
+    <div class="input-bar">
+        <input type="text" placeholder=" Your boring task" >
+
+        <div class="dropdown-container">
+           <select id="prioritySelect" class="dropdown" placeholder = "Priority">
+            <option value="U+1F90F">🤏Low</option>
+            <option value="🖖">🖖 Medium</option>
+            <option value="👏">👏High</option>
+          </select>
+          </div>
+          
+          <div class="dropdown-container">
+            <select id="deadlineSelect" class="dropdown">
+              <option value="today">Today</option>
+              <option value="tomorrow">Tomorrow</option>
+              <option value="youHaveTime">You have time</option>
+            </select>
+          </div>
+          
+        <button id="addButton">Add</button>
+       </div>
+    <div class = "grid-container">
+        <div class="table" >
+            <h3 class="tittle" id="today">Today</h3>
+            <div class="task-list" id="today">
+                <ul id="todayList">
+                </ul>
+            </div>
+        </div>
+        <div class="table">
+            <h3 class="tittle" id="tomorrow">Tomorrow</h3>
+            <div class="task-list" id="tomorrow">
+                <ul id="tomorrowList">
+                </ul>
+            </div>
+        </div>
+        <div class="table">
+            <h3 class="tittle" id="time">You got Time</h3>
+            <div class="task-list" id="time">
+                <ul id="timeList">
+
+                </ul>
+            </div>
+        </div>
+        <div class="table1">
+            <h3 class="tittle1" id="finished">Finished and Done</h3>
+            <div class="task-list1" id="finished">
+                <ul id="finishedList">
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <script src="joao.js"></script>
+</body>
+</html>
